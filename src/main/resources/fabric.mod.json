@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "seaastral",
+  "version": "${version}",
+  "name": "SA ULTRA Client",
+  "description": "SA ULTRA Client - Meteor Client addon.",
+  "authors": [
+    "kbdps"
+  ],
+  "icon": "assets/seaastral/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.seaastral.addon.SeaAstral"
+    ]
+  },
+  "mixins": [
+    "seaastral.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=25",
+    "minecraft": ["26.1.2"],
+    "meteor-client": "*"
+  }
+}

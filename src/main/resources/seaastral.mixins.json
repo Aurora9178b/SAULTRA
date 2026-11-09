@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.seaastral.addon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "DrawScreenMixin",
+    "lianjiScreenMixin",
+    "ChatCopyMixin",
+    "jiazaiMixin",
+    "BlackDoorMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
